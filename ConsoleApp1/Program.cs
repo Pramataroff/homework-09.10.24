@@ -31,7 +31,7 @@
         {
             for (int i = 0; i < numbers.Count; i++)
             {
-                if (numbers[i] < 0 && numbers[i] % 2 == 1)
+                if (numbers[i] < 0 && numbers[i] % 2 != 0)
                 {
                     numbers.RemoveAt(i);
                 }
